@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <string name="app_name">SlidingMenu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+    <string-array name="marray">
+        <item>Horário do ônibus</item>
+        <item>Procura de ônibus</item>
+        <item>Rota dos ônibus</item>
+        <item>Recarga Cartão Transporte</item>
+        
+        
+    </string-array>
+    
+    <string name="satelite">Satélite</string>
+    <string name="mapa">Mapa</string>
+    
+    <string name="mapa">Mapa</string>
+    <string name="Pedestre">Opções</string>
+    
+    <string name="A_pe">A pé</string>
+    <string name="carro">Carro</string>
+    <string name="bicicleta">Bicicleta</string>
+    <string name="onibus">ônibus</string>
+
+</resources>

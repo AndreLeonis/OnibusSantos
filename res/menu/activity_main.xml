@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/menuInit">
+    
+      <item
+        android:id="@+id/pedestre"
+        android:icon="@drawable/people"
+        android:showAsAction="always"
+        android:title="Percurso">
+        
+        <menu>
+           
+            <item android:id="@+id/pe_"
+                  android:title="@string/A_pe" 
+                  android:icon="@drawable/people"/>
+            
+            <item android:id="@+id/carro_"
+                  android:title="@string/carro"
+                  android:icon="@drawable/carro"/>
+            
+            <item android:id="@+id/bicicleta_"
+                  android:title="@string/bicicleta" 
+                  android:icon="@drawable/bicicleta"/>
+            
+            <item android:id="@+id/onibus_"
+                  android:title="@string/onibus" 
+                  android:icon="@drawable/bus"/>
+        </menu>
+    </item>
+    
+    <item
+        android:id="@+id/mapa"
+        android:icon="@drawable/ic_map"
+        android:showAsAction="always"
+        android:title="Mapa">
+        
+        <menu>
+            
+             <item android:id="@+id/mapa_"
+                  android:title="@string/mapa"
+                  android:icon="@drawable/ic_map"/>
+            <item android:id="@+id/satelite_" 
+                  android:title="@string/satelite" 
+                  android:icon="@drawable/ic_location_web_site"/>
+            
+        </menu>
+    </item>
+</menu>
