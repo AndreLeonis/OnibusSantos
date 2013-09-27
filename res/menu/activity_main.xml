@@ -1,6 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" 
     android:id="@+id/menuInit">
-    
+       
       <item
         android:id="@+id/pedestre"
         android:icon="@drawable/people"
@@ -15,7 +15,7 @@
             
             <item android:id="@+id/carro_"
                   android:title="@string/carro"
-                  android:icon="@drawable/carro"/>
+                  android:icon="@drawable/carro" />
             
             <item android:id="@+id/bicicleta_"
                   android:title="@string/bicicleta" 
@@ -29,7 +29,7 @@
     
     <item
         android:id="@+id/mapa"
-        android:icon="@drawable/ic_map"
+        android:icon="@drawable/ic_overflow"
         android:showAsAction="always"
         android:title="Mapa">
         
@@ -38,6 +38,7 @@
              <item android:id="@+id/mapa_"
                   android:title="@string/mapa"
                   android:icon="@drawable/ic_map"/>
+             
             <item android:id="@+id/satelite_" 
                   android:title="@string/satelite" 
                   android:icon="@drawable/ic_location_web_site"/>
